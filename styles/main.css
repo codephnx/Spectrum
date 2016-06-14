@@ -1,0 +1,163 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: proxima-nova, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    font-family: "proxima nova";
+    font-weight: 400;
+    line-height: 1.2857em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+address {
+    font-family: proxima-nova, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background: #000;
+}
+
+.list-inline li {
+    display: inline;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.footerFloat {
+    width: 25%;
+    float: left;
+    padding-top: 12px;
+}
+
+.footerFloat ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footerFloatRight {
+    width: 25%;
+    float: right;
+}
+
+.list-inline li {
+    padding: 0 8px 0 8px;
+}
+
+#social ul {
+    float: right;
+}
+
+#nav {
+    font-family: "proxima nova";
+    font-size: 13px;
+    font-weight: bold;
+    float: right;
+    list-style-type: none;
+}
+
+#nav li {
+    display: inline;
+    padding: 20px 0 20px 20px;
+}
+
+#nav a.active {
+    border-bottom: 3px solid #000;
+    padding-bottom: 3px;
+}
+
+#nav a:hover {
+    border-bottom: 3px solid #000;
+    padding-bottom: 3px;
+}
+
+#header {
+    font-family: proxima-nova;
+    font-size: 13px;
+    padding: 15px 0 15px 0px;
+    overflow: hidden;
+}
+
+#container {
+    font-family: proxima-nova, sans-serif;
+    font-size: 28px;
+}
+
+#logo {
+    float: left;
+    padding: 10px 0;
+}
+
+#footer {
+    font-size: 13px;
+    line-height: 1.5em;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+
+/*Bootstrap CSS*/
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-3 {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
