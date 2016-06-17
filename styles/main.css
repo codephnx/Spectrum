@@ -1,12 +1,29 @@
-body {
-    width: 960px;
-    margin: 0 auto;
-    font-family: proxima-nova, sans-serif;
-}
 
 a {
     text-decoration: none;
     color: #000;
+}
+
+address {
+    font-family: proxima-nova, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+}
+
+body {
+    font-family: proxima-nova, sans-serif;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background: #000;
+}
+
+img {
+    padding-bottom: 15px;
+    margin: 0;
+    width: 100%;
 }
 
 p {
@@ -19,145 +36,73 @@ ul {
     list-style-type: none;
 }
 
-address {
-    font-family: proxima-nova, sans-serif;
+
+#main-nav {
+    font-family: "proxima nova";
     font-size: 13px;
-    font-style: normal;
+    font-weight: bold;
 }
 
-hr {
-    border: 0;
-    height: 5px;
-    background: #000;
+#main-nav li {
+    padding: 20px 0 20px 20px;
 }
 
-.list-inline li {
-    display: inline;
-    margin: 0;
+#main-nav a.active {
+    border-bottom: 3px solid #000;
+    padding-bottom: 3px;
 }
 
-.container {
-    position: relative;
-    width: 100%;
+#main-nav a:hover {
+    border-bottom: 3px solid #000;
+    padding-bottom: 3px;
 }
 
-.footerFloat {
-    width: 25%;
-    float: left;
-    padding-top: 12px;
-}
-
-.footerFloat ul {
+#main-nav.navbar-nav > li > a {
     padding: 0;
-    margin: 0;
+    color: #000;
 }
 
-.footerFloatRight {
-    width: 25%;
-    float: right;
-}
-
-.list-inline li {
-    padding: 0 8px 0 8px;
+#services {
+    font-family: "proxima nova";
+    font-weight: 200;
+    line-height: .5em;
+    font-size: 13px;
 }
 
 #social ul {
     float: right;
+    padding: 0;
+    margin: 0;
 }
 
-#nav {
-    font-family: "proxima nova";
-    font-size: 13px;
-    font-weight: bold;
-    float: right;
-    list-style-type: none;
+.navbar-brand > img {
+    width: 200px;
+    padding-top: 5px;
 }
 
-#nav li {
-    display: inline;
-    padding: 20px 0 20px 20px;
+.navbar-default {
+    background-color: transparent;
+    border: none;
 }
 
-#nav a.active {
-    border-bottom: 3px solid #000;
-    padding-bottom: 3px;
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: none;
 }
 
-#nav a:hover {
-    border-bottom: 3px solid #000;
-    padding-bottom: 3px;
+.social-icons li {
+    padding: 0 8px 0 8px;
 }
 
-#header {
-    font-family: proxima-nova;
-    font-size: 13px;
-    padding: 15px 0 15px 0px;
-    overflow: hidden;
-}
-
-#container {
-    font-family: proxima-nova, sans-serif;
-    font-size: 28px;
-}
-
-#logo {
-    float: left;
-    padding: 10px 0;
-}
-
-#footer {
-    font-size: 13px;
-    line-height: 1.5em;
-    padding-bottom: 40px;
-    overflow: hidden;
-}
-
-
-/*Bootstrap CSS*/
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
+@media screen and (min-width:768px) {
+    #main-nav.navbar-nav {
+        float: right;
     }
 }
 
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
+@media screen and (min-width:992px) {
+    .navbar-brand > img {
+        width: auto;
+        padding-top: 0;
     }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.col-md-3 {
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 20px;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
 }

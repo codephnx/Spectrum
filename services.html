@@ -25,7 +25,7 @@
 
     <div class="container">
         <div class="header">
-            <nav class="navbar navbar">
+            <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -40,17 +40,12 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                        <ul class="nav navbar-nav navbar-right">
-                            <ul id="nav">
+                        <ul id="main-nav" class="nav navbar-nav">
                                 <li><a href="/index.html">PRODUCTS</a></li>
                                 <li><a href="/services.html" class="active">SERVICES</a></li>
-                                <li><a href="#">APPOINTMENTS</a></li>
                                 <li><a href="/community.html">COMMUNITY</a></li>
                                 <li><a href="/about.html">ABOUT</a></li>
                                 <li><a href="/careers.html">CAREERS</a></li>
-                            </ul>
-
-
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -59,7 +54,7 @@
             </nav>
         </div>
         <hr>
-        <div class="row">
+        <div id="services" class="row">
             <div class="col-sm-3">
                 <p>Spectrum Salon offers an expanded services menu of rejuvenating hair and skin care experiences to help you look and feel your best every season. Walk-ins welcome. Appointments recommended. Bookings available by phone or online.</p>
                 <p>We exclusively partner with: Wella, Moroccan Oil, ColorProof, Paul Mitchell, Jane Iredale + Glymed</p>
@@ -156,25 +151,25 @@
         <hr>
 
         <div class="row">
-            <div class="col-sm-4 col-md-4 col-xs-6 footerFloat">
+            <div class="col-sm-4 col-xs-6">
                 <address>The Village at Kimball Junction<br />
                     1664 Uinta Way Suite C-1<br />
                     Park City UT 84098<br />
                     <strong>get directions</strong></address>
             </div>
-            <div class="col-sm-4 col-md-4 col-xs-6 footerFloat">
-                <ul>
+            <div class="col-sm-4 col-xs-6">
+                <ul class="list-unstyled">
                     <li>435-571-0925</li>
                     <li>hello@spectrumsalons.com</li>
-                    <li>Tu–Sa 10:00am–7:00pm</li>
-                    <li>Su 10:00pm–5:00pm</li>
+                    <li>Tu-Sa 10:00am-7:00pm</li>
+                    <li>Su 10:00pm-5:00pm</li>
                     <li>Closed Monday</li>
                     <li><strong>make an appointment</strong></li>
                 </ul>
             </div>
-
-            <div class="col-sm-4 col-md-4 col-xs-12">
-                <ul id="social" class="list-inline">
+            <div class="clearfix visible-xs"></div>
+            <div class="col-sm-4 col-xs-12">
+                <ul id="social" class="social-icons list-inline">
                     <li>
                         <a href="https://www.instagram.com/spectrumsalons/" target="_blank"><img src="images/social_ig.png" alt="Instagram" /></a>
                     </li>
@@ -194,10 +189,9 @@
             </div>
         </div>
     </div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="scripts/bootstrap.min.js"></script>
 </body>
 
 </html>
